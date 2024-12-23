@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:layout/layout_6_1.dart';
 import 'package:layout/layout_6_2.dart';
 import 'package:layout/layout_6_3.dart';
+import 'package:layout/extra1.dart';
+import 'package:layout/extra2.dart';
+
 
 
 
@@ -21,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Layout3(),
+      home: const Layout6(),
     );
   }
 }
